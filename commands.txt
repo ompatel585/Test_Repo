@@ -31,3 +31,9 @@ git config -- global user.email "ompatel34003@gmail.com"
  When you are in a git repo and you wanna change other repo on which youll push the code
 
  then use : --> git remote set-url origin https://github.com/ompatel585/Test_Repo.git
+
+ Command when git push doesnt work and you dont wanna use git push -f
+
+ git pull --rebase origin main
+git push origin main
+
